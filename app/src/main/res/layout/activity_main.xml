@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_open_websocket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打开服务" />
+        <Button
+            android:id="@+id/btn_close_websocket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关闭服务" />
+
+        <Button
+            android:id="@+id/btn_send_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送消息给客户端"/>
+        <Button
+            android:id="@+id/btn_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连接到服务端"/>
+    </LinearLayout>
+
+</RelativeLayout>
